@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@600&family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700;800&family=Poppins:wght@400;600;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+/* nav section */
+nav{
+    background: #d28fe4;
+    padding: 40px 30px;
+    
+}
+
+.nav-title{
+    color: pink;
+}
+.nav-logo p{
+    font-size: 1.8rem;
+    color: white;
+}
+.nav-logo{
+    font-size: 1.8rem;
+}
+.nav-logo{
+    display: flex;
+    gap:10px;
+    align-items: center;
+    width: 50%;
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    
+}
+.nav-links a{
+    text-decoration: none;
+    color: white;
+}
+.nav-links li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1.5rem;
+}
+.nav-links{
+    width: 50%;
+}
+.nav-links ul {
+    display: flex;
+    
+    justify-content: space-between;
+    
+}
+.log-in-btn {
+    background-color: pink;
+    padding: 10px;
+    border-radius: 10px;
+    color: black;
+}
